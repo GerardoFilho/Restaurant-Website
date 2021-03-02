@@ -6,17 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+        integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
+        crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
 
-    </head>
+
+</head>
 
 <body>
     <!-- header section starts-->
@@ -41,21 +49,97 @@
     <!-- home section starts-->
     <section id="home" class="container-fluid">
 
+        <div class="row min-vh-100 align-items-center">
+
+            <div class="col-md-8 ml-md-5 text-md-left text-center content">
+                <h1>Uma refeição impossivel de resistir</h1>
+                <h2>Aproveite o gosto saboroso</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ullam numquam eius repudiandae
+                    ducimus nemo illum, minima quae dolorem aspernatur.</p>
+                <a href="#special"><button>get started</button></a>
+            </div>
+
+            <div class="video-container">
+                <video src="img/vid1.mp4" autoplay loop class="vid vid1"></video>
+                <video src="img/vid2.mp4" autoplay loop class="vid vid2"></video>
+                <video src="img/vid3.mp4" autoplay loop class="vid vid3"></video>
+            </div>
+            <div class="controls">
+                <div class="dots dot1"></div>
+                <div class="dots dot2"></div>
+                <div class="dots dot3"></div>
+            </div>
+
+        </div>
 
     </section>
     <!-- home section ends-->
 
+    <!-- special card section starts-->
+    <section id="special" class="container-fluid">
+        <div class="heading text-center">
+            <h1>our <span>special</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, atque.</p>
+        </div>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="img/card1.jpg" alt="card1">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
+                <a href="#"><button>read more</button></a>
+            </div>
+
+            
+                <div class="card">
+                    <img src="img/card2.jpg" alt="card2">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
+                    <a href="#"><button>read more</button></a>
+                </div>
+
+              
+                    <div class="card">
+                        <img src="img/card3.jpg" alt="card3">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
+                        <a href="#"><button>read more</button></a>
+                    </div>
+               
+    </section>
+    <!-- special card section ends-->
+
 
     <!-- script part starts-->
     <script>
-        $(document).ready(function(){
-            $('.fa-hamburger').click(function(){
+        $(document).ready(function () {
+            $('.fa-hamburger').click(function () {
                 $(this).toggleClass('fa-times');
                 $('nav').toggleClass('nav-toggle');
+            });
+            $('nav ul li a').click(function () {
+                $('.fa-hamburger').removeClass('fa-times');
+                $('nav').removeClass('nav-toggle');
+            });
+            $('.dot1').click(function () {
+                $('.vid1').css('display', 'block');
+                $('.vid2').css('display', 'none');
+                $('.vid3').css('display', 'none');
+            });
+            $('.dot2').click(function () {
+                $('.vid1').css('display', 'none');
+                $('.vid2').css('display', 'block');
+                $('.vid3').css('display', 'none');
+            });
+            $('.dot3').click(function () {
+                $('.vid1').css('display', 'none');
+                $('.vid2').css('display', 'none');
+                $('.vid3').css('display', 'block');
             });
         });
     </script>
     <!-- script part ends-->
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
