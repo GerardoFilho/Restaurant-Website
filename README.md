@@ -1,2 +1,2 @@
 # Restaurant-Website
-Criação de um website para um restaurante local.
+Criação de website para restaurante local, totalmente responsivo (mobile first).
