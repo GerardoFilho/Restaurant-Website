@@ -13,29 +13,21 @@
         integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="
         crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"></script>
-
-
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
 </head>
 
 <body>
-    <!-- header section starts-->
+    <!-- header section inicio-->
     <header id="header">
         <nav>
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#special">special</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#dish">dishes</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#home">inicio</a></li>
+                <li><a href="#special">especial</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#dish">pratos</a></li>
+                <li><a href="#contact">contato</a></li>
             </ul>
         </nav>
 
@@ -43,26 +35,26 @@
 
         <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
     </header>
-    <!-- header section ends-->
+    <!-- header section fim-->
 
 
-    <!-- home section starts-->
+    <!-- home section inicio-->
     <section id="home" class="container-fluid">
 
         <div class="row min-vh-100 align-items-center">
 
             <div class="col-md-8 ml-md-5 text-md-left text-center content">
                 <h1>Uma refeição impossivel de resistir</h1>
-                <h2>Aproveite o gosto saboroso</h2>
+                <h2>Aproveite a delicia de nossos pratos</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ullam numquam eius repudiandae
                     ducimus nemo illum, minima quae dolorem aspernatur.</p>
-                <a href="#special"><button>get started</button></a>
+                <a href="#special"><button>vamos la</button></a>
             </div>
 
             <div class="video-container">
-                <video src="img/vid1.mp4" autoplay loop class="vid vid1"></video>
-                <video src="img/vid2.mp4" autoplay loop class="vid vid2"></video>
-                <video src="img/vid3.mp4" autoplay loop class="vid vid3"></video>
+                <video src="img/vid1.mp4" autoplay loop muted class="vid vid1"></video>
+                <video src="img/vid2.mp4" autoplay loop muted class="vid vid2"></video>
+                <video src="img/vid3.mp4" autoplay loop muted class="vid vid3"></video>
             </div>
             <div class="controls">
                 <div class="dots dot1"></div>
@@ -73,12 +65,12 @@
         </div>
 
     </section>
-    <!-- home section ends-->
+    <!-- home section fim-->
 
-    <!-- special card section starts-->
+    <!-- especial card section inicio-->
     <section id="special" class="container-fluid">
         <div class="heading text-center">
-            <h1>our <span>special</span></h1>
+            <h1>Nosso <span>Especial</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, atque.</p>
         </div>
 
@@ -87,28 +79,195 @@
             <div class="card">
                 <img src="img/card1.jpg" alt="card1">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
-                <a href="#"><button>read more</button></a>
+                <a href="#"><button>saiba mais</button></a>
             </div>
 
-            
-                <div class="card">
-                    <img src="img/card2.jpg" alt="card2">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
-                    <a href="#"><button>read more</button></a>
+
+            <div class="card">
+                <img src="img/card2.jpg" alt="card2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
+                <a href="#"><button>saiba mais</button></a>
+            </div>
+
+
+            <div class="card">
+                <img src="img/card3.jpg" alt="card3">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
+                <a href="#"><button>saiba mais</button></a>
+            </div>
+
+    </section>
+    <!-- special card section fim-->
+
+    <!--sobre section inicio-->
+
+    <section id="about" class="container">
+
+        <div class="heading text-center">
+            <h1><span>Sobre</span></h1>
+        </div>
+
+        <div class="row min-vh-100">
+
+            <div class="col-md-6 text-center text-md-left align-self-center content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque facere, veritatis modi ab itaque ducimus aliquam ad hic quod numquam nesciunt velit reprehenderit asperiores nihil vel quia quisquam iusto.</p>
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas temporibus eos laudantium. Accusamus amet veniam sit, tenetur praesentium ad.</p>
+            <a href="#"><button>saiba mais</button></a>
+            </div>
+            <div class="col-md-6 image">
+                <img src="img/chef2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--about section fim-->
+
+    <!--pratos section inicio-->
+    <section id="dish" class="container">
+
+        <div class="heading text-center">
+            <h1>Nossos <span>Pratos</span></h1>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/dish1.jpg" alt="">
+                <div class="info">
+                    <h3>dish1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae?</p>
+                    <a href="#"><button>ver</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/dish2.jpg" alt="">
+                <div class="info">
+                    <h3>dish2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae?</p>
+                    <a href="#"><button>ver</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/dish3.jpg" alt="">
+                <div class="info">
+                    <h3>dish3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae?</p>
+                    <a href="#"><button>ver</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/dish4.jpg" alt="">
+                <div class="info">
+                    <h3>dish4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae?</p>
+                    <a href="#"><button>ver</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/dish5.jpg" alt="">
+                <div class="info">
+                    <h3>dish5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae?</p>
+                    <a href="#"><button>ver</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/dish6.jpg" alt="">
+                <div class="info">
+                    <h3>dish6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae?</p>
+                    <a href="#"><button>ver</button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--pratos section fim-->
+
+    <!--contato section inicio-->
+
+    <section id="contact" class="container-fluid">
+        <div class="heading text-center">
+            <h1><span>Contato</span></h1>
+        </div>
+
+        <div class="row justufy-content-center">
+
+            <form action="" class="col-md-7">
+
+                <div class="inputBox">
+                    <input type="text" required>
+                    <h3>nome completo</h3>
                 </div>
 
-              
-                    <div class="card">
-                        <img src="img/card3.jpg" alt="card3">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, doloribus.</p>
-                        <a href="#"><button>read more</button></a>
-                    </div>
-               
+                <div class="inputBox">
+                    <input type="email" required>
+                    <h3>e-mail</h3>
+                </div>
+
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <h3>mensagem</h3>
+                </div>
+
+                <input type="submit" value="enviar">
+
+            </form>
+        </div>
     </section>
-    <!-- special card section ends-->
+
+    <!--contato section fim-->
 
 
-    <!-- script part starts-->
+    <!--footer section inicio-->
+
+    <section id="footer" class="container-fluid">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-4 brand">
+
+                <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-squre"></a>
+                    <a href="#" class="fab fa-twitter-squre"></a>
+                    <a href="#" class="fab fa-instagram-squre"></a>
+                    <a href="#" class="fab fa-pinterest-squre"></a>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 footer-links">
+                <h2>links:</h2>
+                <a href="#home">inicio</a>
+                <a href="#special">especial</a>
+                <a href="#about">sobre</a>
+                <a href="#dish">pratos</a>
+                <a href="#contact">contato</a>
+            </div>
+            <div class="col-md-4 text-center text-md-left letter">
+                <h2>Redes sociais</h2>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                
+            </div>
+        </div>
+        <h1>&copy; copyrights @ 2021 </h1>
+    </section>
+
+    <!--footer section fim-->
+
+
+    <!-- script part inicio-->
     <script>
         $(document).ready(function () {
             $('.fa-hamburger').click(function () {
@@ -134,9 +293,18 @@
                 $('.vid2').css('display', 'none');
                 $('.vid3').css('display', 'block');
             });
+
+            $(window).on('scroll load', function(){
+                if($(window).scrollTop() > 10){
+                    $('#header').addClass('header-active');
+                }else{
+                    $('#header').removeClass('header-active');
+                }
+            });
         });
     </script>
-    <!-- script part ends-->
+    <!-- script part fim-->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
         integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
         crossorigin="anonymous"></script>
